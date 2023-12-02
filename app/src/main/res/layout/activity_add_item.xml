@@ -4,19 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#89CFF0"
+    android:background="#0E75A5"
     tools:context=".AddItem">
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="393dp"
-        android:layout_height="58dp"
+        android:layout_width="293dp"
+        android:layout_height="66dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="116dp"
         android:contentDescription="Select Food"
-        android:textColor="#ffffff"
+        style="values/themes.xml/CustomSpinnerStyle"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="0.572"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,7 +39,7 @@
         android:layout_marginStart="160dp"
         android:layout_marginTop="208dp"
         android:ems="10"
-        android:inputType="text"
+        android:inputType="number"
         android:textAlignment="textStart"
         android:textColor="#FFFFFF"
         android:textSize="24sp"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#89CFF0"
+    android:background="#0E75A5"
     tools:context=".FoodList">
 
 
@@ -22,12 +22,13 @@
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="393dp"
-        android:layout_height="58dp"
+        android:layout_width="279dp"
+        android:layout_height="57dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="84dp"
         android:contentDescription="Select Food"
-        android:textColor="#ffffff"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
@@ -77,7 +78,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="348dp"
         android:background="#eeeeee"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

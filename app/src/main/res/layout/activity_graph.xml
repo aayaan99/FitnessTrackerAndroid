@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#89CFF0"
+    android:background="#0E75A5"
     android:textAlignment="center"
     tools:context=".Graph">
 

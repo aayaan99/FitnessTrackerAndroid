@@ -73,7 +73,7 @@ public class Graph extends AppCompatActivity {
             String dateStr = sdf.format(cal.getTime());
             calorieData.put(dateStr, 0);
             sortedDates.add(dateStr);
-            cal.add(Calendar.DATE, i); // Reset the date back
+            cal.add(Calendar.DATE, i);
         }
 
 
