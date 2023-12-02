@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#89CFF0"
+    tools:context=".Welcome">
+
+    <TextView
+        android:id="@+id/TextSummary"
+        android:layout_width="254dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="42dp"
+        android:text="Your calorie consumption today is 0/0"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextWelcome" />
+
+    <TextView
+        android:id="@+id/TextWelcome"
+        android:layout_width="113dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="84dp"
+        android:text="Welcome User!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/TextSummary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="129dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="83dp"
+        android:background="@drawable/profile_button"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextSummary" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="408dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton9">
+
+        <ImageButton
+            android:id="@+id/imageButtonWelcome"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/welcome_button" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="106dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/todays_diet_button" />
+
+        <ImageButton
+            android:id="@+id/imageButtonFoodItem"
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/food_item_button" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="97dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/graph_button" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

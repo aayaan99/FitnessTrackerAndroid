@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_welcome"
+        android:icon="@drawable/welcome_button"
+        android:title="Welcome" />
+    <item
+        android:id="@+id/menu_todays_diet"
+        android:icon="@drawable/todays_diet_button"
+        android:title="Today's Diet" />
+    <item
+        android:id="@+id/menu_food_items"
+        android:icon="@drawable/food_item_button"
+        android:title="Food Items" />
+    <item
+        android:id="@+id/menu_analysis"
+        android:icon="@drawable/graph_button"
+        android:title="Analysis" />
+</menu>
