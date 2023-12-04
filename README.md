@@ -2,19 +2,19 @@
 
 ## I. File List
 
-- `MainActivity.java` - Main activity file for the application.
-- `UserProfile.java` - Handles user profile data and operations.
-- `CalorieTracker.java` - Core functionality for tracking calorie intake.
-- `FoodItem.java` - Represents a food item with calorie information.
-- `DatabaseHelper.java` - Manages internal database operations.
-- `GraphViewActivity.java` - For rendering user activity graphs.
-- `settings.xml` - XML file for settings layout.
-- `activity_main.xml` - XML file for the main activity layout.
-- `profile_activity.xml` - XML layout for user profile.
-- `graph_view_activity.xml` - XML layout for graph view.
-- `AndroidManifest.xml` - Manifest file for the Android application.
-- `README.md` - This documentation file.
-- `Makefile` - Makefile for building the application.
+- `FoodList.java` - Manages the food list functionality&#8203;``【oaicite:12】``&#8203;.
+- `Graph.java` - Handles the graphical representation of fitness data&#8203;``【oaicite:11】``&#8203;.
+- `NewItem.java` - Responsible for adding new items to the fitness tracker&#8203;``【oaicite:10】``&#8203;.
+- `Profile.java` - Manages user profile-related functionalities&#8203;``【oaicite:9】``&#8203;.
+- `Todaydiet.java` - Handles the functionalities related to daily diet tracking&#8203;``【oaicite:8】``&#8203;.
+- `activity_main.xml` - XML layout for the main activity&#8203;``【oaicite:7】``&#8203;.
+- `activity_add_item.xml` - XML layout for adding new items&#8203;``【oaicite:6】``&#8203;.
+- `activity_food_list.xml` - XML layout for the food list activity&#8203;``【oaicite:5】``&#8203;.
+- `activity_graph.xml` - XML layout for graph representation activity&#8203;``【oaicite:4】``&#8203;.
+- `activity_new_item.xml` - XML layout for the new item activity&#8203;``【oaicite:3】``&#8203;.
+- `activity_profile.xml` - XML layout for the profile activity&#8203;``【oaicite:2】``&#8203;.
+- `activity_todaydiet.xml` - XML layout for the today's diet activity&#8203;``【oaicite:1】``&#8203;.
+- `consumed_food_item.xml` - XML layout for individual consumed food items&#8203;``【oaicite:0】``&#8203;.
 
 ## II. Introduction
 
